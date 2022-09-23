@@ -22,6 +22,17 @@ body{
     justify-content: space-between;
 }
 
+a{
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.header ul #home{
+    font-weight: 800;
+    color: #e3b062;
+
+}
+
 .navbar{
     display: flex;
     width: 600px;
