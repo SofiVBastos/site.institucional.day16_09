@@ -8,6 +8,7 @@
     <title>LOGIN - AquaTec</title>
     <link rel="stylesheet" href="Estilos.css">
     <link rel="stylesheet" href="forms-estilo.css">
+    <link rel="stylesheet" href="register.css">
 
 </head>
 
@@ -19,17 +20,20 @@
                     <li><a href="Index.html">Inicial</a></li>
                     <li>Simulador</li>
                     <li>|</li>
-                    <li id="home">Login</li>
-                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li id="home">Cadastro</li>
                 </ul>
             </div>
         </div>
     
         <div class="banner">
             <div class="container">
-                <div class="box_formulario">
+                <div class="box_register">
                     <h1>Olá de volta</h1>
-                    <div class="formulario">
+                    <div class="register">
+
+                        <span>Nome:</span>
+                        <input id="ipt_name" type="text" placeholder="Seu nome">
 
                         <span>E-mail:</span>
                         <input id="ipt_email" type="email" placeholder="Seu E-mail">
@@ -37,7 +41,10 @@
                         <span>Senha:</span>
                         <input id="ipt_password" type="password" placeholder="*******">
 
-                        <button>Entrar</button>
+                        <span>Confirmação da Senha:</span>
+                        <input id="ipt_password" type="password" placeholder="*******">
+
+                        <button>Cadastrar</button>
                     </div>
                 </div>
             </div>

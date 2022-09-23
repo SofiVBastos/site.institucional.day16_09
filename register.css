@@ -1,7 +1,7 @@
-.box_formulario{
+.box_register{
     background-color: white;
     width: 400px;
-    height: 300px;
+    height: 450px;
     color: palevioletred;
     display: flex;
     flex-direction: column;
@@ -10,17 +10,17 @@
     border-radius: 5px;
 }
 
-.box_formulario h1{
+.box_register h1{
     font-size: 30px;
 }
 
-.formulario{
+.register{
     display: flex;
     flex-direction: column;
     width: 200px;
 }
 
-.formulario button{
+.register button{
     margin-top: 10px;
     background: #e1374e;
     color: white;
@@ -32,7 +32,7 @@
     align-self: center;
 }
 
-.formulario input{
+.register input{
     padding: 10px 15px;
     text-align: center;
     border: 2px solid rgb(82, 82, 182);
